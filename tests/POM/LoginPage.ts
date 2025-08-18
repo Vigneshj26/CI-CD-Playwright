@@ -24,6 +24,7 @@ class LoginPage {
     async clickLogin() {
 
         await this.lp.click("//input[@value='Login']")
+        console.log("clicklogin function works)
     }
 
 }
